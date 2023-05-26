@@ -435,8 +435,7 @@ body::-webkit-scrollbar {
     /* STYLES HERE */
     .image {
         display: flex;
-        align-items: center;
-        padding-left: 23%;
+        justify-content: space-around;
     }
     .imag {
         
@@ -477,8 +476,9 @@ body::-webkit-scrollbar {
     .backline {
         border: 12px double white;
         display: flex;
-        padding-bottom: 4%;
-        border-radius: 40% 30%;
+        align-items: center;
+        border-radius: 30% 30%;
+        height: 600px;
         border-left: none;
         justify-content: center;
         border-right: none;
@@ -487,10 +487,10 @@ body::-webkit-scrollbar {
     }
     
     .getintouch {
-        margin-top: 3%;
-        width: 430px;
+        
+        width: 400px;
         border-radius: 5px;
-        height: 390px;
+        height: 430px;
         box-shadow: 5px 5px 100px rgb(78, 77, 77);
         background-image: url(https://i0.wp.com/picjumbo.com/wp-content/uploads/white-fur-on-pink-background-free-photo.jpg?w=1024&quality=50);
         background-repeat: no-repeat;
@@ -543,7 +543,7 @@ body::-webkit-scrollbar {
         outline: none;
         border: white;
         width: 74%;
-        height: 20px;
+        height: 60px;
         margin-top: 1%;
         margin-left: 9%;
         border-radius: 5px;
@@ -589,13 +589,13 @@ body::-webkit-scrollbar {
     }
     .container {
         width: 100%;
-    
+
         flex-direction: column;
         display: flex;
         border: 6px dotted rgb(255, 255, 255);
         border-top:none ;
         border-left: none;
-        border-radius: 30% 50%;
+        border-radius: 20% 20%;
         border-right: none;
         background: rgb(255, 127, 127);
         background: linear-gradient(90deg, rgba(255, 127, 127, 1) 27%, rgb(254, 125, 125) 100%);
@@ -611,6 +611,9 @@ body::-webkit-scrollbar {
         border: none;
         box-shadow: 4px 4px 10px;
     
+    }
+    .about{
+        font-size: 1.5rem;
     }
 
    
