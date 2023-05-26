@@ -581,12 +581,7 @@ body::-webkit-scrollbar {
         width: 100%;
         text-align: center;
     }
-    .write {
-        text-align: center;
-        color: rgb(5, 6, 7);
-        font-size: 2rem;
     
-    }
     .container {
         width: 100%;
 
@@ -770,12 +765,7 @@ body::-webkit-scrollbar {
         width: 100%;
         text-align: center;
     }
-    .write {
-        text-align: center;
-        color: rgb(5, 6, 7);
-        font-size: 2rem;
     
-    }
     .container {
         width: 100%;
 
@@ -856,7 +846,7 @@ body::-webkit-scrollbar {
         display: flex;
         align-items: center;
         border-radius: 20% 20%;
-        height: 480px;
+        height: 460px;
         border-left: none;
         justify-content: center;
         border-right: none;
@@ -865,7 +855,8 @@ body::-webkit-scrollbar {
     }
     
     .getintouch {
-        
+        display: flex;
+        flex-direction: column;
         width: 300px;
         border-radius: 5px;
         height: 400px;
@@ -886,25 +877,20 @@ body::-webkit-scrollbar {
     .input {
         width: 6rem;
         height: 2rem;
-        
-        
-        margin-bottom: 3%;
-        border-radius: 5px;
-        padding-left: 15px;
+        justify-content: center;
+        border-radius: 5px; 
         border: white;
         outline: none;
     }
     
     .input1 {
-        margin-left: 12%;
         width: 8rem;
+        margin-left: 12%;
         height: 2rem;
         border: white;
         outline: none;
         border-radius: 5px;
         padding-left: 15px;
-    
-    
     }
     
     .nota {
@@ -920,12 +906,10 @@ body::-webkit-scrollbar {
     .inpu {
         outline: none;
         border: white;
-        width: 74%;
+        width: 80%;
         height: 60px;
-        margin-top: 1%;
-        margin-left: 9%;
-        border-radius: 5px;
-        padding: 15px;
+        justify-content: center;
+        
         cursor: text;
     
     
@@ -934,15 +918,16 @@ body::-webkit-scrollbar {
     .buttin {
         
         
-        width: 80px;
-        padding: 8px;
+        width: 60px;
+        
         font-size: 12px;
         border-radius: 8px;
-        margin-top: 3.5%;
+        /* justify-content: space-around; */
         cursor: pointer;
-        color: rgb(99, 99, 100);
+        color: rgb(255, 255, 255);
         border: none;
         box-shadow: 4px 4px 10px;
+        background-color: rgb(0, 0, 0);
         
     }
     ul>li {
@@ -959,12 +944,6 @@ body::-webkit-scrollbar {
     .context {
         width: 100%;
         text-align: center;
-    }
-    .write {
-        text-align: center;
-        color: rgb(5, 6, 7);
-        font-size: 1.5rem;
-    
     }
     .container {
         width: 100%;
@@ -999,3 +978,65 @@ body::-webkit-scrollbar {
     
     
 }
+@media screen and (min-device-width: 480px) and (max-device-width: 540px){
+    .write{
+        font-size: 1rem;
+        font-weight: 900;
+    }
+}
+@media screen and (min-device-width: 360px) and (max-device-width: 480px){
+    .write{
+        font-size: 0.7rem;
+        font-weight: 900;
+    }
+}
+@media screen and (min-device-width: 540px) and (max-device-width: 675px){
+    .write{
+        font-size: 1.2rem;
+        font-weight: 900;
+    }
+}
+@media screen and (min-device-width: 675px) and (max-device-width: 730px){
+    .write{
+        font-size: 1.5rem;
+        font-weight: 900;
+    }
+}
+@media screen and (min-device-width: 730px) and (max-device-width: 1024px){
+    .write{
+        font-size: 1.6rem;
+        font-weight: 900;
+    }
+}
+@media screen and (min-device-width: 1024px) and (max-device-width: 1366px){
+    .backline {
+        border: 12px double white;
+        display: flex;
+        padding-bottom: 4%;
+        border-radius: 30% 30%;
+        height: 760px;
+        border-left: none;
+        justify-content: center;
+        align-items: center;
+        border-right: none;
+        background: rgb(255, 127, 127);
+        background: linear-gradient(90deg, rgba(255, 127, 127, 1) 27%, rgb(254, 125, 125) 100%);
+    }
+    
+    .getintouch {
+        
+        width: 800px;
+        border-radius: 5px;
+        justify-content: center;
+        height: 640px;
+        box-shadow: 5px 5px 100px rgb(78, 77, 77);
+        background-image: url(https://i0.wp.com/picjumbo.com/wp-content/uploads/white-fur-on-pink-background-free-photo.jpg?w=1024&quality=50);
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    
+    }
+   
+}
+
+
