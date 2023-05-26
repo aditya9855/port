@@ -7,8 +7,7 @@ body {
 .big-container {
     margin: 0px;
     padding: 0px;
-    background: rgb(20, 24, 184);
-    background: linear-gradient(90deg, rgba(20, 24, 184, 1) 0%, rgba(39, 236, 236, 1) 50%, rgba(222, 231, 13, 1) 100%);
+    background-color: rgb(255, 126, 126);
 }
 
 .header {
@@ -17,8 +16,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
 
-    background: rgb(20, 24, 184);
-    background: linear-gradient(90deg, rgba(20, 24, 184, 1) 0%, rgba(39, 236, 236, 1) 50%, rgba(222, 231, 13, 1) 100%);
+    background-color: rgb(255, 126, 126);
     height: 8vh;
     width: 100%;
 }
@@ -59,7 +57,7 @@ a:hover {
 .container {
     width: 100%;
 
-    justify-content: space-between;
+    justify-content: center;
     display: flex;
     border: 6px dotted rgb(255, 255, 255);
 
@@ -67,22 +65,21 @@ a:hover {
     border-radius: 30% 50%;
     border-right: none;
     background: rgb(255, 127, 127);
-    background: linear-gradient(90deg, rgba(255, 127, 127, 1) 27%, rgba(198, 226, 45, 1) 100%);
+    background: linear-gradient(90deg, rgba(255, 127, 127, 1) 27%, rgb(254, 125, 125) 100%);
 
 }
 
 .context {
     width: 50%;
-    padding-left: 10%;
-    padding-right: 10%;
+    text-align: center;
 }
 
 .txt {
 
     font-size: 2rem;
-    margin-top: 30%;
+    margin-top: 25%;
     color: rgb(1, 1, 1);
-    text-align: center;
+    
 }
 
 .txt:hover {
@@ -106,16 +103,12 @@ a:hover {
 
 .image {
     display: flex;
-    justify-content: center;
+    align-items: center;
     padding: 10%;
-
-
-
-
 }
 
 .imag {
-    display: flex;
+    align-items: center;
     height: 300px;
     width: 300px;
     border-radius: 50%;
@@ -155,7 +148,7 @@ a:hover {
 }
 
 .butnn {
-    padding-left: 150px;
+    justify-content: right;
 }
 
 .butn:hover {
@@ -165,12 +158,14 @@ a:hover {
 
 .backline {
     border: 12px double white;
+    display: flex;
     padding-bottom: 4%;
     border-radius: 40% 30%;
     border-left: none;
+    justify-content: center;
     border-right: none;
     background: rgb(255, 127, 127);
-    background: linear-gradient(90deg, rgba(255, 127, 127, 1) 27%, rgba(198, 226, 45, 1) 100%);
+    background: linear-gradient(90deg, rgba(255, 127, 127, 1) 27%, rgb(254, 125, 125) 100%);
 }
 
 .getintouch {
@@ -178,9 +173,6 @@ a:hover {
     width: 800px;
     border-radius: 5px;
     height: 630px;
-    align-items: center;
-    margin-left: 22%;
-    /* background-color: rgb(255, 255, 255); */
     box-shadow: 5px 5px 100px rgb(78, 77, 77);
     background-image: url(https://i0.wp.com/picjumbo.com/wp-content/uploads/white-fur-on-pink-background-free-photo.jpg?w=1024&quality=50);
     background-repeat: no-repeat;
@@ -203,7 +195,7 @@ a:hover {
     margin-bottom: 3%;
     border-radius: 5px;
     padding-left: 15px;
-    border: none;
+    border: white;
     outline: none;
 }
 
@@ -211,10 +203,11 @@ a:hover {
     margin-left: 8.5%;
     width: 10rem;
     height: 2rem;
+    border: white;
     outline: none;
     border-radius: 5px;
     padding-left: 15px;
-    border: none;
+
 
 }
 
@@ -229,7 +222,7 @@ a:hover {
 
 .inpu {
     outline: none;
-    border: none;
+    border: white;
     width: 84%;
     height: 200px;
     margin-top: 2%;
@@ -286,3 +279,7 @@ body::-webkit-scrollbar {
     background: linear-gradient(90deg, rgba(255, 127, 127, 1) 27%, rgba(198, 226, 45, 1) 100%);
     border-radius: 10%;
   }
+
+.input2{
+    border: 2px red;
+}
