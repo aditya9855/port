@@ -1014,6 +1014,12 @@ body::-webkit-scrollbar {
         font-weight: 900;
     }
 }
+@media screen and (min-device-width: 675px) and (max-device-width: 768px){
+    .write{
+        font-size: 1.4rem;
+        font-weight: 900;
+    }
+}
 @media screen and (min-device-width: 1024px) and (max-device-width: 1366px){
     .backline {
         border: 12px double white;
