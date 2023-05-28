@@ -4,6 +4,14 @@ body {
 
 }
 
+.list{
+    border: 2px solid black;
+    border-right:none;
+    border-top-width: 40%;
+    border-left: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 .big-container {
     margin: 0px;
     padding: 0px;
@@ -11,6 +19,8 @@ body {
 }
 
 .header {
+    
+    
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -264,6 +274,11 @@ a:hover {
     text-align: end;
     margin-right: 5%;
 }
+
+/* projects */
+
+
+
 body::-webkit-scrollbar {
     width: 0.5em;
     background: rgb(255, 127, 127);
